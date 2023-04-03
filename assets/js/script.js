@@ -4,6 +4,12 @@ DEVELOPMENT
 1- inizializzare un array di oggetti con le informazioni fornite
 */
 
+
+// milestone 0
+// const OUTPUT = document.getElementById('output');
+
+const list = document.querySelector('ul');
+
 const team = [
     {
         firstName: 'Wayne',
@@ -44,3 +50,32 @@ const team = [
 ]
 
 console.log(team);
+// console.log(team[1].firstName);
+
+// milestone 1
+for (let key in team) {
+    const property = team[key]
+
+    console.log('firstname -->', property.firstName);
+    console.log('lastname -->', property.lastName);
+    console.log('role -->', property.role);
+    console.log('image -->', property.image);
+    // console.log('property -->', property);
+
+    list.innerHTML += `
+    <li>${property.firstName} ${property.lastName} <br>
+    ${property.role} <br>
+    ${property.image}</li>
+    `
+}
+
+// for (const el of team) {
+
+//         console.log('el', el);
+// }
+//////////////////////////////////////////////
+// for (let i = 0; i < team.length; i++) {
+//     const element = team[i];
+    
+//     console.log(element);
+// }
