@@ -1,13 +1,3 @@
-/*
-DEVELOPMENT
-
-1- inizializzare un array di oggetti con le informazioni fornite
-*/
-
-
-// milestone 0
-// const OUTPUT = document.getElementById('output');
-
 const list = document.querySelector('ul');
 
 const team = [
@@ -63,9 +53,11 @@ for (let key in team) {
     // console.log('property -->', property);
 
     list.innerHTML += `
-    <li>${property.firstName} ${property.lastName} <br>
+    <li>
+    <img src="assets/img/${property.image}"><br>
+    <span>${property.firstName} ${property.lastName}</span> <br>
     ${property.role} <br>
-    <img src="assets/img/${property.image}"></li>
+    </li>
     `
 }
 

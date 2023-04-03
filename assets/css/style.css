@@ -7,3 +7,27 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+ul {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #E2EEF7;
+}
