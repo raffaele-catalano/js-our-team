@@ -4,11 +4,11 @@ Our Team
 ---
 ## Milestones
 - #0 Creare l'*array* di oggetti con le informazioni fornite &checkmark;;
-- #1 Stampare su *console*, per ogni componente del team, le informazioni relative a: nome; ruolo e la stringa della foto;
-- #2 Stampare le stesse informazioni su *DOM* sottoforma di stringhe;
+- #1 Stampare su *console*, per ogni componente del team, le informazioni relative a: nome; ruolo e la stringa della foto &checkmark;;
+- #2 Stampare le stesse informazioni su *DOM* sottoforma di stringhe &checkmark;;
 ---
 ## Bonus
-- #1 Trasformare la stringa foto in una immagine effettiva;
+- #1 Trasformare la stringa foto in una immagine effettiva &checkmark;;
 - #2 Organizzare i singoli componenti del team in card/schede.
 
 ## Development
