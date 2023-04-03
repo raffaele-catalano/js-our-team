@@ -6,20 +6,26 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1A2332;
 }
 
 ul {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    cursor: pointer;
 }
 
 li {
     list-style: none;
     text-align: center;
+    margin: 10px;
+    width: calc(100% / 4);
 }
 
 img {
-    width: 80%;
+    width: 300px;
+    border: 1px solid #1A2332;
+    box-shadow: 1px 1px 10px rgba(26, 35, 50, .5);
 }
 
 span {
