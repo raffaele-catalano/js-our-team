@@ -9,10 +9,7 @@ Our Team
 ---
 ## Bonus
 - #1 Trasformare la stringa foto in una immagine effettiva &checkmark;;
-- #2 Organizzare i singoli componenti del team in card/schede.
-
-## Development
--
+- #2 Organizzare i singoli componenti del team in card/schede &checkmark;.
 
 <!-- ## Install & Dependence
 - python
