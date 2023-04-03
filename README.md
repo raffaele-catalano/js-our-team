@@ -3,7 +3,7 @@ Our Team
 > Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team. Ogni membro è caratterizzato dalle seguenti informazioni: Nome; Ruolo; Foto.
 ---
 ## Milestones
-- #0 Creare l'*array* di oggetti con le informazioni fornite;
+- #0 Creare l'*array* di oggetti con le informazioni fornite &checkmark;;
 - #1 Stampare su *console*, per ogni componente del team, le informazioni relative a: nome; ruolo e la stringa della foto;
 - #2 Stampare le stesse informazioni su *DOM* sottoforma di stringhe;
 ---
