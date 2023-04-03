@@ -65,7 +65,7 @@ for (let key in team) {
     list.innerHTML += `
     <li>${property.firstName} ${property.lastName} <br>
     ${property.role} <br>
-    ${property.image}</li>
+    <img src="assets/img/${property.image}"></li>
     `
 }
 
